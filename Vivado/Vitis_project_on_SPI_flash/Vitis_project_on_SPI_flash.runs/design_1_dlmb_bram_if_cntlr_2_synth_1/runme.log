@@ -1,0 +1,356 @@
+
+*** Running vivado
+    with args -log design_1_dlmb_bram_if_cntlr_2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_dlmb_bram_if_cntlr_2.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source design_1_dlmb_bram_if_cntlr_2.tcl -notrace
+create_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 1569.215 ; gain = 133.977
+Command: synth_design -top design_1_dlmb_bram_if_cntlr_2 -part xc7a35ticsg324-1L -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35ti'
+INFO: [Device 21-403] Loading part xc7a35ticsg324-1L
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 29688
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:56 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_dlmb_bram_if_cntlr_2' [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_2/synth/design_1_dlmb_bram_if_cntlr_2.vhd:84]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000000111111111111111 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000010000000001000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_INTERCONNECT bound to: 0 - type: integer 
+	Parameter C_FAULT_INJECT bound to: 0 - type: integer 
+	Parameter C_CE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_UE_FAILING_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_STATUS_REGISTERS bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_REGISTER bound to: 0 - type: integer 
+	Parameter C_ECC_ONOFF_RESET_VALUE bound to: 1 - type: integer 
+	Parameter C_CE_COUNTER_WIDTH bound to: 0 - type: integer 
+	Parameter C_WRITE_ACCESS bound to: 2 - type: integer 
+	Parameter C_BRAM_AWIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_CTRL_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_bram_if_cntlr' declared at 'c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3137' bound to instance 'U0' of component 'lmb_bram_if_cntlr' [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_2/synth/design_1_dlmb_bram_if_cntlr_2.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3262]
+	Parameter C_TARGET bound to: 2 - type: integer 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000010000000001000000000000000000000 
+	Parameter C_MASK1 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK2 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_MASK3 bound to: 64'b0000000000000000000000000000000000000000100000000000000000000000 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_ECC bound to: 0 - type: integer 
+	Parameter C_NUM_LMB bound to: 1 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_mux' declared at 'c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2530' bound to instance 'lmb_mux_I' of component 'lmb_mux' [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3514]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2617]
+	Parameter C_AW bound to: 32 - type: integer 
+	Parameter C_BAR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter C_MASK bound to: 64'b0000000000000000000000000000000010000000001000000000000000000000 
+INFO: [Synth 8-3491] module 'pselect_mask' declared at 'c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2113' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2684]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2128]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (1#1) [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2128]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (2#1) [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:2617]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (3#1) [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ipshared/a8d1/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3262]
+INFO: [Synth 8-256] done synthesizing module 'design_1_dlmb_bram_if_cntlr_2' (4#1) [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_2/synth/design_1_dlmb_bram_if_cntlr_2.vhd:84]
+WARNING: [Synth 8-7129] Port A[1] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[2] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[3] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[4] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[5] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[6] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[7] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[8] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[9] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[11] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[12] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[13] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[14] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[15] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[16] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[17] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[18] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[19] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[20] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[21] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[22] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[23] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[24] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[25] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[26] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[27] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[28] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[29] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[30] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[31] in module pselect_mask is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB_Clk in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB_Rst in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[0] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[1] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[2] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[3] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[4] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[5] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[6] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[7] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[8] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[9] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[10] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[11] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[12] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[13] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[14] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[15] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[16] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[17] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[18] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[19] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[20] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[21] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[22] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[23] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[24] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[25] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[26] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[27] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[28] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[29] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[30] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ABus[31] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[0] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[1] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[2] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[3] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[4] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[5] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[6] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[7] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[8] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[9] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[10] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[11] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[12] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[13] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[14] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[15] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[16] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[17] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[18] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[19] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[20] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[21] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[22] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[23] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[24] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[25] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[26] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[27] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[28] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[29] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[30] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteDBus[31] in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_AddrStrobe in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_ReadStrobe in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_WriteStrobe in module lmb_mux is either unconnected or has no load
+WARNING: [Synth 8-7129] Port LMB1_BE[0] in module lmb_mux is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:01:02 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:01:03 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:01:03 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2260.742 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_2/design_1_dlmb_bram_if_cntlr_2_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.gen/sources_1/bd/design_1/ip/design_1_dlmb_bram_if_cntlr_2/design_1_dlmb_bram_if_cntlr_2_ooc.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_dlmb_bram_if_cntlr_2_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_dlmb_bram_if_cntlr_2_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2260.742 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 2260.742 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:47 ; elapsed = 00:01:29 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35ticsg324-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:47 ; elapsed = 00:01:29 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_dlmb_bram_if_cntlr_2_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:01:29 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:47 ; elapsed = 00:01:29 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:01:34 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:49 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:07 ; elapsed = 00:01:49 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:07 ; elapsed = 00:01:49 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     2|
+|2     |LUT3 |     1|
+|3     |LUT4 |     4|
+|4     |FDRE |     2|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2260.742 ; gain = 311.484
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 322 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:52 ; elapsed = 00:01:57 . Memory (MB): peak = 2260.742 ; gain = 311.484
+Synthesis Optimization Complete : Time (s): cpu = 00:01:19 ; elapsed = 00:02:02 . Memory (MB): peak = 2260.742 ; gain = 311.484
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2260.742 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2260.742 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: c83b7b6f
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:29 ; elapsed = 00:02:20 . Memory (MB): peak = 2260.742 ; gain = 661.691
+INFO: [Common 17-1381] The checkpoint 'C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_dlmb_bram_if_cntlr_2_synth_1/design_1_dlmb_bram_if_cntlr_2.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_dlmb_bram_if_cntlr_2, cache-ID = 3eec08701d3c39ae
+INFO: [Common 17-1381] The checkpoint 'C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_dlmb_bram_if_cntlr_2_synth_1/design_1_dlmb_bram_if_cntlr_2.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_dlmb_bram_if_cntlr_2_utilization_synth.rpt -pb design_1_dlmb_bram_if_cntlr_2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 30 17:06:51 2022...

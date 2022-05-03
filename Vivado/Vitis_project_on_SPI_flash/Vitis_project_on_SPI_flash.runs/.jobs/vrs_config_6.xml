@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_mig_7series_0_2_synth_1" LaunchDir="C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_mig_7series_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_reset_inv_0_0_synth_1" LaunchDir="C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_reset_inv_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_dlmb_bram_if_cntlr_2_synth_1" LaunchDir="C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_dlmb_bram_if_cntlr_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ilmb_bram_if_cntlr_2_synth_1" LaunchDir="C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_ilmb_bram_if_cntlr_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_lmb_bram_2_synth_1" LaunchDir="C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_lmb_bram_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_uartlite_0_2_synth_1" LaunchDir="C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/design_1_axi_uartlite_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/Vitis_project_on_SPI_flash.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_1_mig_7series_0_2_synth_1"/>
+		<Parent Id="design_1_reset_inv_0_0_synth_1"/>
+		<Parent Id="design_1_dlmb_bram_if_cntlr_2_synth_1"/>
+		<Parent Id="design_1_ilmb_bram_if_cntlr_2_synth_1"/>
+		<Parent Id="design_1_lmb_bram_2_synth_1"/>
+		<Parent Id="design_1_axi_uartlite_0_2_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

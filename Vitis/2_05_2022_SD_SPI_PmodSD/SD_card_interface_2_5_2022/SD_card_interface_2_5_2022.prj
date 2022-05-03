@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="SD_card_interface_2_5_2022" location="C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SD_card_interface_2_5_2022" platform="C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/export/SPI_flash_and_PmodSD/SPI_flash_and_PmodSD.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" systemProject="SD_card_interface_2_5_2022_system" sysConfig="SPI_flash_and_PmodSD" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" language="CPP" mssSignature="39ab6ddc21b2b6f9cad956ab1a1d0b39">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1384243955">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.123498080" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

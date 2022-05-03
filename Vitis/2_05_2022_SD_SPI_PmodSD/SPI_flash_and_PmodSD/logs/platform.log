@@ -1,0 +1,1337 @@
+TRACE::2022-05-02.18:29:19::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:19::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:19::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:19::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:19::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:19::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:19::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-02.18:29:20::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-05-02.18:29:20::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD"
+		}]
+}
+TRACE::2022-05-02.18:29:20::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-05-02.18:29:20::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-05-02.18:29:20::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD"
+		}]
+}
+TRACE::2022-05-02.18:29:20::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD"
+		}]
+}
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:20::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:20::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:20::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:20::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:20::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-02.18:29:20::SCWMssOS::No sw design opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:20::SCWMssOS::mss does not exists at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:20::SCWMssOS::Creating sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:20::SCWMssOS::Adding the swdes entry, created swdb C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:20::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:20::SCWMssOS::Writing mss at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:20::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:29:20::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-05-02.18:29:20::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-05-02.18:29:20::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:29:20::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Saving the mss changes C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-05-02.18:29:22::SCWMssOS::Writing the mss file completed C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Commit changes completed.
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"d22e08a1cf297a4a1e0131617bb45eb8",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-05-02.18:29:22::SCWPlatform::Started generating the artifacts platform SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:29:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-02.18:29:22::SCWPlatform::Started generating the artifacts for system configuration SPI_flash_and_PmodSD
+LOG::2022-05-02.18:29:22::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-05-02.18:29:22::SCWSystem::Not a boot domain 
+LOG::2022-05-02.18:29:22::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-05-02.18:29:22::SCWDomain::Generating domain artifcats
+TRACE::2022-05-02.18:29:22::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-02.18:29:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:29:22::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-02.18:29:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-02.18:29:22::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2022-05-02.18:29:22::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-05-02.18:29:22::SCWMssOS::Copying to export directory.
+TRACE::2022-05-02.18:29:22::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-05-02.18:29:22::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-05-02.18:29:22::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-05-02.18:29:22::SCWSystem::Completed Processing the sysconfig SPI_flash_and_PmodSD
+LOG::2022-05-02.18:29:22::SCWPlatform::Completed generating the artifacts for system configuration SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:29:22::SCWPlatform::Started preparing the platform 
+TRACE::2022-05-02.18:29:22::SCWSystem::Writing the bif file for system config SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:29:22::SCWSystem::dir created 
+TRACE::2022-05-02.18:29:22::SCWSystem::Writing the bif 
+TRACE::2022-05-02.18:29:22::SCWPlatform::Started writing the spfm file 
+TRACE::2022-05-02.18:29:22::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-05-02.18:29:22::SCWPlatform::Completed generating the platform
+TRACE::2022-05-02.18:29:22::SCWMssOS::Saving the mss changes C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Commit changes completed.
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"d22e08a1cf297a4a1e0131617bb45eb8",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-05-02.18:29:22::SCWPlatform::updated the xpfm file.
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Saving the mss changes C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Commit changes completed.
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"d22e08a1cf297a4a1e0131617bb45eb8",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Saving the mss changes C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Commit changes completed.
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"d22e08a1cf297a4a1e0131617bb45eb8",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-05-02.18:29:22::SCWPlatform::Started generating the artifacts platform SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:29:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-02.18:29:22::SCWPlatform::Started generating the artifacts for system configuration SPI_flash_and_PmodSD
+LOG::2022-05-02.18:29:22::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-05-02.18:29:22::SCWDomain::Generating domain artifcats
+TRACE::2022-05-02.18:29:22::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-02.18:29:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:29:22::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-02.18:29:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-02.18:29:22::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-05-02.18:29:22::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-05-02.18:29:22::SCWMssOS::Copying to export directory.
+TRACE::2022-05-02.18:29:22::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-05-02.18:29:22::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-05-02.18:29:22::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-05-02.18:29:22::SCWSystem::Completed Processing the sysconfig SPI_flash_and_PmodSD
+LOG::2022-05-02.18:29:22::SCWPlatform::Completed generating the artifacts for system configuration SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:29:22::SCWPlatform::Started preparing the platform 
+TRACE::2022-05-02.18:29:22::SCWSystem::Writing the bif file for system config SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:29:22::SCWSystem::dir created 
+TRACE::2022-05-02.18:29:22::SCWSystem::Writing the bif 
+TRACE::2022-05-02.18:29:22::SCWPlatform::Started writing the spfm file 
+TRACE::2022-05-02.18:29:22::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-05-02.18:29:22::SCWPlatform::Completed generating the platform
+TRACE::2022-05-02.18:29:22::SCWMssOS::Saving the mss changes C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-02.18:29:22::SCWMssOS::Commit changes completed.
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:29:22::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2022-05-02.18:29:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:29:22::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:29:22::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:29:22::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"d22e08a1cf297a4a1e0131617bb45eb8",
+					"compatibleApp":	"empty_application",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-05-02.18:29:22::SCWPlatform::updated the xpfm file.
+TRACE::2022-05-02.18:30:28::SCWPlatform::Clearing the existing platform
+TRACE::2022-05-02.18:30:28::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-05-02.18:30:28::SCWMssOS::Removing the swdes entry for  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:28::SCWSystem::Clearing the domains completed.
+TRACE::2022-05-02.18:30:28::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-05-02.18:30:28::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:28::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:28::SCWPlatform:: Platform location is C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:28::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:28::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:28::SCWPlatform::Removing the HwDB with name C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:28::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:28::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:28::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:28::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:28::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:28::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:28::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-02.18:30:29::SCWPlatform::Opened new HwDB with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWReader::Active system found as  SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:30:29::SCWReader::Handling sysconfig SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:30:29::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:29::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:29::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-02.18:30:29::SCWMssOS::No sw design opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:29::SCWMssOS::mss exists loading the mss file  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:29::SCWMssOS::Opened the sw design from mss  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:29::SCWMssOS::Adding the swdes entry C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-05-02.18:30:29::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-02.18:30:29::SCWMssOS::Opened the sw design.  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:29::SCWMssOS::Saving the mss changes C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:29::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-02.18:30:29::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-02.18:30:29::SCWMssOS::Commit changes completed.
+TRACE::2022-05-02.18:30:29::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-02.18:30:29::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:29::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:29::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:30:29::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:29::SCWReader::No isolation master present  
+TRACE::2022-05-02.18:30:34::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:34::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:34::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:34::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:30:34::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::In reload Mss file.
+TRACE::2022-05-02.18:30:34::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:34::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:34::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:34::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-02.18:30:34::SCWMssOS::No sw design opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::mss exists loading the mss file  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::Opened the sw design from mss  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::Adding the swdes entry C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-05-02.18:30:34::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-02.18:30:34::SCWMssOS::Opened the sw design.  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::Saving the mss changes C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-02.18:30:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-02.18:30:34::SCWMssOS::Commit changes completed.
+TRACE::2022-05-02.18:30:34::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:34::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:34::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:34::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:34::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:30:34::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:34::SCWMssOS::Removing the swdes entry for  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:36::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:36::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:36::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:36::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:36::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:36::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:36::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:36::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:36::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:36::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:36::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-02.18:30:36::SCWMssOS::No sw design opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:36::SCWMssOS::mss exists loading the mss file  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:36::SCWMssOS::Opened the sw design from mss  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:36::SCWMssOS::Adding the swdes entry C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-05-02.18:30:36::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-02.18:30:36::SCWMssOS::Opened the sw design.  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:36::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:30:37::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2022-05-02.18:30:52::SCWPlatform::Started generating the artifacts platform SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:30:52::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-02.18:30:52::SCWPlatform::Started generating the artifacts for system configuration SPI_flash_and_PmodSD
+LOG::2022-05-02.18:30:52::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-05-02.18:30:52::SCWSystem::Not a boot domain 
+LOG::2022-05-02.18:30:52::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-05-02.18:30:52::SCWDomain::Generating domain artifcats
+TRACE::2022-05-02.18:30:52::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-02.18:30:52::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-02.18:30:52::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:52::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:52::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:52::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:30:52::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:30:52::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:30:52::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:30:52::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:30:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:30:52::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:52::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-02.18:30:52::SCWMssOS::No sw design opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:52::SCWMssOS::mss exists loading the mss file  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:52::SCWMssOS::Opened the sw design from mss  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:52::SCWMssOS::Adding the swdes entry C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-05-02.18:30:52::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-02.18:30:52::SCWMssOS::Opened the sw design.  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:52::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:30:52::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:30:52::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-02.18:30:52::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-02.18:30:52::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-05-02.18:30:52::SCWMssOS::doing bsp build ... 
+TRACE::2022-05-02.18:30:52::SCWMssOS::System Command Ran  C: & cd  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2022-05-02.18:30:52::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-05-02.18:30:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-05-02.18:30:52::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-05-02.18:30:52::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-05-02.18:30:52::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:30:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-05-02.18:30:52::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-05-02.18:30:52::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-05-02.18:30:52::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:30:52::SCWMssOS::"Running Make include in microblaze_0/libsrc/PmodSD_v1_0/src"
+
+TRACE::2022-05-02.18:30:52::SCWMssOS::make -C microblaze_0/libsrc/PmodSD_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-05-02.18:30:52::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-05-02.18:30:52::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+ERROR::2022-05-02.18:30:53::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2022-05-02.18:30:53::SCWSystem::Error in Processing the domain standalone_microblaze_0
+TRACE::2022-05-02.18:32:28::SCWMssOS::cleaning the bsp 
+TRACE::2022-05-02.18:32:28::SCWMssOS::System Command Ran  C: & cd  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2022-05-02.18:32:28::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s clean 
+
+TRACE::2022-05-02.18:32:28::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s clean 
+
+TRACE::2022-05-02.18:32:28::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_8/src -s clean 
+
+TRACE::2022-05-02.18:32:29::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s clean 
+
+TRACE::2022-05-02.18:32:29::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s clean 
+
+TRACE::2022-05-02.18:32:29::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2022-05-02.18:32:35::SCWPlatform::Started generating the artifacts platform SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:32:35::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-02.18:32:35::SCWPlatform::Started generating the artifacts for system configuration SPI_flash_and_PmodSD
+LOG::2022-05-02.18:32:35::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-05-02.18:32:35::SCWSystem::Not a boot domain 
+LOG::2022-05-02.18:32:35::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-05-02.18:32:35::SCWDomain::Generating domain artifcats
+TRACE::2022-05-02.18:32:35::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-02.18:32:35::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-02.18:32:35::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:32:35::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:32:35::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:32:35::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:32:35::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:32:35::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:32:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:32:35::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:32:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:32:35::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:32:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:32:35::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:32:35::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:32:35::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:32:35::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-02.18:32:35::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-02.18:32:35::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-05-02.18:32:35::SCWMssOS::doing bsp build ... 
+TRACE::2022-05-02.18:32:35::SCWMssOS::System Command Ran  C: & cd  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2022-05-02.18:32:35::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-05-02.18:32:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-05-02.18:32:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-05-02.18:32:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-05-02.18:32:35::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:32:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-05-02.18:32:35::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-05-02.18:32:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-05-02.18:32:35::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:32:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_8/src"
+
+TRACE::2022-05-02.18:32:35::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-05-02.18:32:35::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-05-02.18:32:35::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:32:36::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-05-02.18:32:36::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-05-02.18:32:36::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-05-02.18:32:36::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:32:37::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-05-02.18:32:37::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-05-02.18:32:37::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-05-02.18:32:37::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:32:38::SCWMssOS::"Running Make libs in microblaze_0/libsrc/PmodSD_v1_0/src"
+
+TRACE::2022-05-02.18:32:38::SCWMssOS::make -C microblaze_0/libsrc/PmodSD_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-05-02.18:32:38::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-05-02.18:32:38::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+ERROR::2022-05-02.18:32:38::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2022-05-02.18:32:38::SCWSystem::Error in Processing the domain standalone_microblaze_0
+LOG::2022-05-02.18:33:10::SCWPlatform::Started generating the artifacts platform SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:33:10::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-02.18:33:10::SCWPlatform::Started generating the artifacts for system configuration SPI_flash_and_PmodSD
+LOG::2022-05-02.18:33:10::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-05-02.18:33:10::SCWSystem::Not a boot domain 
+LOG::2022-05-02.18:33:10::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-05-02.18:33:10::SCWDomain::Generating domain artifcats
+TRACE::2022-05-02.18:33:10::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-02.18:33:10::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-02.18:33:10::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:10::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:10::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:10::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:33:10::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:10::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:33:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:33:10::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:33:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:33:10::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:33:10::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:10::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:33:10::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:10::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-02.18:33:10::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-02.18:33:10::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-05-02.18:33:10::SCWMssOS::doing bsp build ... 
+TRACE::2022-05-02.18:33:10::SCWMssOS::System Command Ran  C: & cd  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp & make 
+ERROR::2022-05-02.18:33:10::SCWMssOS::Failed to build  the bsp sources for domain - standalone_microblaze_0
+ERROR::2022-05-02.18:33:10::SCWSystem::Error in Processing the domain standalone_microblaze_0
+TRACE::2022-05-02.18:33:16::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:16::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:16::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:16::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:33:16::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:16::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:33:16::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:33:16::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:33:16::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:33:16::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:16::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:33:16::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:16::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:33:16::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2022-05-02.18:33:24::SCWPlatform::Started generating the artifacts platform SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:33:24::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-02.18:33:24::SCWPlatform::Started generating the artifacts for system configuration SPI_flash_and_PmodSD
+LOG::2022-05-02.18:33:24::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2022-05-02.18:33:24::SCWSystem::Not a boot domain 
+LOG::2022-05-02.18:33:24::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2022-05-02.18:33:24::SCWDomain::Generating domain artifcats
+TRACE::2022-05-02.18:33:24::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-02.18:33:24::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-02.18:33:24::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:24::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:24::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:24::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:33:24::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:24::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:33:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:33:24::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:33:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:33:24::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:24::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-02.18:33:24::SCWMssOS::No sw design opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:24::SCWMssOS::mss exists loading the mss file  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:24::SCWMssOS::Opened the sw design from mss  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:24::SCWMssOS::Adding the swdes entry C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2022-05-02.18:33:24::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-02.18:33:24::SCWMssOS::Opened the sw design.  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:24::SCWMssOS::Completed writing the mss file at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2022-05-02.18:33:24::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:24::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-02.18:33:24::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-02.18:33:24::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2022-05-02.18:33:24::SCWMssOS::doing bsp build ... 
+TRACE::2022-05-02.18:33:24::SCWMssOS::System Command Ran  C: & cd  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2022-05-02.18:33:24::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-05-02.18:33:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-05-02.18:33:24::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-05-02.18:33:24::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-05-02.18:33:24::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_8/src"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-05-02.18:33:24::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-05-02.18:33:24::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-05-02.18:33:24::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-05-02.18:33:24::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-05-02.18:33:24::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-05-02.18:33:24::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-05-02.18:33:24::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-05-02.18:33:25::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-05-02.18:33:25::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-05-02.18:33:25::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-05-02.18:33:25::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_8/src"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2022-05-02.18:33:25::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2022-05-02.18:33:25::SCWMssOS::tra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-05-02.18:33:25::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-05-02.18:33:25::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-05-02.18:33:25::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-05-02.18:33:25::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-05-02.18:33:25::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-05-02.18:33:31::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-05-02.18:33:31::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-05-02.18:33:31::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-05-02.18:33:31::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-05-02.18:33:31::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2022-05-02.18:33:31::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/xspi_g.o microblaze_0/lib/microblaze_flush
+TRACE::2022-05-02.18:33:31::SCWMssOS::_cache_ext.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xspi_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/
+TRACE::2022-05-02.18:33:31::SCWMssOS::lib/xspi_selftest.o microblaze_0/lib/xil_cache.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/lib/microbla
+TRACE::2022-05-02.18:33:31::SCWMssOS::ze_exception_handler.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/mic
+TRACE::2022-05-02.18:33:31::SCWMssOS::roblaze_disable_interrupts.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib
+TRACE::2022-05-02.18:33:31::SCWMssOS::/microblaze_disable_icache.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xspi_stats.o microblaze_0/lib/xuartlite_intr.o microbl
+TRACE::2022-05-02.18:33:31::SCWMssOS::aze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xbram_intr.o microbla
+TRACE::2022-05-02.18:33:31::SCWMssOS::ze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xio.o microblaze_0/lib/outbyte.o microblaze_0/lib/mic
+TRACE::2022-05-02.18:33:31::SCWMssOS::roblaze_invalidate_dcache_range.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_
+TRACE::2022-05-02.18:33:31::SCWMssOS::0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xil_uti
+TRACE::2022-05-02.18:33:31::SCWMssOS::l.o microblaze_0/lib/xspi.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze
+TRACE::2022-05-02.18:33:31::SCWMssOS::_interrupts_g.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xb
+TRACE::2022-05-02.18:33:31::SCWMssOS::ram.o microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_init
+TRACE::2022-05-02.18:33:31::SCWMssOS::_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/xspi_options.o microblaze_0/lib/errno.o microb
+TRACE::2022-05-02.18:33:31::SCWMssOS::laze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze
+TRACE::2022-05-02.18:33:31::SCWMssOS::_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/microblaze_update_icache.o microb
+TRACE::2022-05-02.18:33:31::SCWMssOS::laze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_assert.o microblaze_0/lib/microblaze_
+TRACE::2022-05-02.18:33:31::SCWMssOS::enable_interrupts.o microblaze_0/lib/microblaze_enable_icache.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icach
+TRACE::2022-05-02.18:33:31::SCWMssOS::e_range.o
+
+TRACE::2022-05-02.18:33:31::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-05-02.18:33:32::SCWMssOS::Copying to export directory.
+TRACE::2022-05-02.18:33:32::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-05-02.18:33:32::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-05-02.18:33:32::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2022-05-02.18:33:32::SCWSystem::Completed Processing the sysconfig SPI_flash_and_PmodSD
+LOG::2022-05-02.18:33:32::SCWPlatform::Completed generating the artifacts for system configuration SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:33:32::SCWPlatform::Started preparing the platform 
+TRACE::2022-05-02.18:33:32::SCWSystem::Writing the bif file for system config SPI_flash_and_PmodSD
+TRACE::2022-05-02.18:33:32::SCWSystem::dir created 
+TRACE::2022-05-02.18:33:32::SCWSystem::Writing the bif 
+TRACE::2022-05-02.18:33:32::SCWPlatform::Started writing the spfm file 
+TRACE::2022-05-02.18:33:32::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-05-02.18:33:32::SCWPlatform::Completed generating the platform
+TRACE::2022-05-02.18:33:32::SCWMssOS::Saving the mss changes C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:32::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-05-02.18:33:32::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-05-02.18:33:32::SCWMssOS::Commit changes completed.
+TRACE::2022-05-02.18:33:32::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:32::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:32::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:32::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:33:32::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:32::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:33:32::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:33:32::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:33:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:33:32::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:32::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:33:32::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:32::SCWWriter::formatted JSON is {
+	"platformName":	"SPI_flash_and_PmodSD",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"SPI_flash_and_PmodSD",
+	"platHandOff":	"C:/Users/rikir/Documents/FPGA_projects/Vitis_project_on_SPI_flash/SPI_flash_and_PmodSD.xsa",
+	"platIntHandOff":	"<platformDir>/hw/SPI_flash_and_PmodSD.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"SPI_flash_and_PmodSD",
+	"systems":	[{
+			"systemName":	"SPI_flash_and_PmodSD",
+			"systemDesc":	"SPI_flash_and_PmodSD",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"SPI_flash_and_PmodSD",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"d22e08a1cf297a4a1e0131617bb45eb8",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-05-02.18:33:32::SCWPlatform::updated the xpfm file.
+TRACE::2022-05-02.18:33:32::SCWPlatform::Trying to open the hw design at C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:32::SCWPlatform::DSA given C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:32::SCWPlatform::DSA absoulate path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:32::SCWPlatform::DSA directory C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw
+TRACE::2022-05-02.18:33:32::SCWPlatform:: Platform Path C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/hw/SPI_flash_and_PmodSD.xsa
+TRACE::2022-05-02.18:33:32::SCWPlatform:: Unique name xilinx:arty-a7-35::0.0
+TRACE::2022-05-02.18:33:32::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_2
+TRACE::2022-05-02.18:33:32::SCWPlatform::Opened existing hwdb design_1_wrapper_2
+TRACE::2022-05-02.18:33:32::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-02.18:33:32::SCWMssOS::Checking the sw design at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2022-05-02.18:33:32::SCWMssOS::DEBUG:  swdes dump  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2022-05-02.18:33:32::SCWMssOS::Sw design exists and opened at  C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/microblaze_0/standalone_microblaze_0/bsp/system.mss

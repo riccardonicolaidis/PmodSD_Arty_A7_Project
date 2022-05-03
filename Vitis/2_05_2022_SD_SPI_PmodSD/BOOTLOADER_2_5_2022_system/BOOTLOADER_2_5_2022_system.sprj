@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="BOOTLOADER_2_5_2022_system" platform="C:/Users/rikir/Documents/Vitis/2_05_2022_SD_SPI_PmodSD/SPI_flash_and_PmodSD/export/SPI_flash_and_PmodSD/SPI_flash_and_PmodSD.xpfm" platformUID="xilinx:arty-a7-35::0.0(custom)" sysConfig="SPI_flash_and_PmodSD" runtime="C/C++" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.703941513">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="BOOTLOADER_2_5_2022" domainName="standalone_microblaze_0" domainPrettyName="standalone_microblaze_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.2095790304">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="BOOTLOADER_2_5_2022" domainName="standalone_microblaze_0" domainPrettyName="standalone_microblaze_0" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>
