@@ -43,7 +43,7 @@ To interface with the pmod SD, the **Digilent Vivado library** is required. See 
 
 
 
-## Installation of the Vivado Library
+## Vivado tutorial: Installation of the Vivado Library + Block design + Bitstream generation
 To install the Vivado Library you can follow the guide at the following [link](https://digilent.com/reference/learn/programmable-logic/tutorials/pmod-ips/start). This guide is obsolete since it states that Digilent Pmods are supported only in **Xilinx SDK 2019.1 and earlier**. Howeveer, this project has been built using **Vivado 2021.1** and **Vitis 2021.1**.
 
 Follow these steps:
@@ -82,3 +82,7 @@ Now you can export the hardware for Vitis
 - Make sure to include the bitstream when you are creating a .XSA file
 
 Now the Hardware is ready and you can close Vivado and open Vitis.
+
+
+## Vitis tutorial: File system project + Bootloader + FPGA configuration
+To be continued...
