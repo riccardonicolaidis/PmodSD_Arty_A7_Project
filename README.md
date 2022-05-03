@@ -85,4 +85,17 @@ Now the Hardware is ready and you can close Vivado and open Vitis.
 
 
 ## Vitis tutorial: File system project + Bootloader + FPGA configuration
+Once the bitstream has been generated, a new Vitis project need to be created.
+- Createa a new application project. 
+- To build up an application project, a platform project is needed. To do this you need to load the .xsa file from the exported hardware.
+
+Now, in Vitis you will have two projects, an applcation written in C++ and a platform project containining the **Board Support Package** (BSP).
+
+- If you click on the platform project and click on **Build project**, an error may occour and the compilation could not be done by the Vitis compiler. To solve this problem I adopted the following procedure:
+    - From the BSP I deleted all the C++ files containing the drivers. These, in fact, are not required in the platform project, but only in the application. The platform project, should contain only the informations about the hardware. In particular, I have noticed that by eliminating the PMod SD card files (contained in the Vivado Library) from the "microblaze_0" directory, the problem should be solved. After this operation I clicked on the button "reset BSP". After all this operation the Vitis compiler correctly built the platform project. 
+    - To create the application project I imported the file contained in the Vivado Library apporting some changes to the files in order to fix some errors fromt the compiler.
+    - If the project has been correctly build, there should be a .elf file which is the image file of our **Baremetal software**. 
+
+To upload the project onto the FPGA we need to create a **Bootloader application**.
+
 To be continued...
